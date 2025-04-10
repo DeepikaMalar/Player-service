@@ -1,9 +1,13 @@
 # PlayersAssignment-Comeon
 
 APIs
+
 1. Register a player
+
    API: http://localhost:8081/player/register
+   
     sample request data
+   
         {
         "name": "Player1",
         "surName": "anv",
@@ -19,23 +23,31 @@ APIs
         }
         }
 
-2.  Player Login
+3.  Player Login
+   
     API: http://localhost:8080/player/login
+    
     sample request data
+    
         {
         "email": "player1.gmail@outlook.com",
         "password": "1234"        
         }
 
-3.  Player Logout with session Identifier
+5.  Player Logout with session Identifier
+   
     API: http://localhost:8080/player/logout
 
-4.  To set Time Limit for player
+7.  To set Time Limit for player
+   
     API: http://localhost:8080/player/set-limit
+    
     sample request data (seconds in number)
+    
     300
 
  H2 in memore database
+ s
  url: jdbc:h2:mem:playerapp
  usename: sa
  password: password
